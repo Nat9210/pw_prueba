@@ -10,29 +10,18 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="style-registro.css">
 </head>
-<!--formulario creacion de cuenta-->
+
 <body>
-    <h1>Crea tu cuenta de usuario</h1>
-    <br>
-    <form>
-        <div 
-        ="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Nombres">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Apellidos">
-          </div>
-        </div>
-        <br>
-        <div class="form-group">
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
-          <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
-        </div>
-        <div class="form-group">
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
-        </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
+  <!--formulario creacion de cuenta-->
+  <section class="form-register">
+    <h4>Formulario Registro</h4>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Registrar">
+    <p><a href="#">¿Ya tengo Cuenta?</a></p>
+  </section>
 </body>
 </html>
